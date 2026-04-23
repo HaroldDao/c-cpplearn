@@ -1,0 +1,6 @@
+﻿  bai1.c
+  bai2.c
+  Generating Code...
+E:\Learnnnn\exa\exa\bai2.c(16,1): warning C4716: 'gcdOf': must return a value
+bai2.obj : error LNK2005: main already defined in bai1.obj
+E:\Learnnnn\exa\x64\Debug\exa.exe : fatal error LNK1169: one or more multiply defined symbols found

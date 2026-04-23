@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4b6931bd8b20558ed042.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "studenlist_Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "studenlist_Project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-studenlist_Project-Debug-6be33651580f9bcf708b.json",
+					"name" : "studenlist_Project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "studenlist_Project_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-studenlist_Project_autogen-Debug-fb623ffa88f0488464df.json",
+					"name" : "studenlist_Project_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "studenlist_Project_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-studenlist_Project_autogen_timestamp_deps-Debug-b876a2a5aaec9854b109.json",
+					"name" : "studenlist_Project_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/run/media/kseven/HaroldDao/Learnnnn/studenlist_Project/build/Desktop-Debug",
+		"source" : "/run/media/kseven/HaroldDao/Learnnnn/studenlist_Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,9 @@
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/325.dir
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/install.dir
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/325_autogen_timestamp_deps.dir
+/home/kseven/325/325/build/Desktop-Debug/CMakeFiles/325_autogen.dir

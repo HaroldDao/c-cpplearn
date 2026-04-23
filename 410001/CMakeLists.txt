@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(410001 LANGUAGES C)
+
+add_executable(410001 main.c)
+
+include(GNUInstallDirs)
+install(TARGETS 410001
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)

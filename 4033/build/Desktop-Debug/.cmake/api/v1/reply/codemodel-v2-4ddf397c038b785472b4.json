@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4defb29b9cd4aeef6407.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "4033",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "4033::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4033-Debug-0631df97df497c014fd6.json",
+					"name" : "4033",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4033_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4033_autogen-Debug-4a3436da11c5b8ca2867.json",
+					"name" : "4033_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4033_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4033_autogen_timestamp_deps-Debug-dd63e72781a4633e8c06.json",
+					"name" : "4033_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/run/media/kseven/HaroldDao/Learnnnn/4033/build/Desktop-Debug",
+		"source" : "/run/media/kseven/HaroldDao/Learnnnn/4033"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

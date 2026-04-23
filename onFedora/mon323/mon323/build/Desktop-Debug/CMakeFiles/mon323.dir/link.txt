@@ -1,0 +1,1 @@
+/usr/bin/g++ -DQT_QML_DEBUG -g -Wl,--dependency-file=CMakeFiles/mon323.dir/link.d CMakeFiles/mon323.dir/mon323_autogen/mocs_compilation.cpp.o CMakeFiles/mon323.dir/main.cpp.o -o mon323  /usr/lib64/libQt6Core.so.6.10.2

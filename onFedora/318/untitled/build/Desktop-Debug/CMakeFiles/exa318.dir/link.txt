@@ -1,0 +1,1 @@
+/usr/bin/g++ -DQT_QML_DEBUG -g -Wl,--dependency-file=CMakeFiles/exa318.dir/link.d CMakeFiles/exa318.dir/exa318_autogen/mocs_compilation.cpp.o CMakeFiles/exa318.dir/main.cpp.o -o exa318  /usr/lib64/libQt6Core.so.6.10.2

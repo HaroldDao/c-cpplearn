@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learnnnn\\atest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1BC287E-BC14-4551-A28C-1D2F711175C1}|atest\\atest.vcxproj|E:\\Learnnnn\\atest\\atest\\bai2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F1BC287E-BC14-4551-A28C-1D2F711175C1}|atest\\atest.vcxproj|solutionrelative:atest\\bai2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bai2.c",
+              "DocumentMoniker": "E:\\Learnnnn\\atest\\atest\\bai2.c",
+              "RelativeDocumentMoniker": "atest\\bai2.c",
+              "ToolTip": "E:\\Learnnnn\\atest\\atest\\bai2.c",
+              "RelativeToolTip": "atest\\bai2.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-09T13:09:49.569Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

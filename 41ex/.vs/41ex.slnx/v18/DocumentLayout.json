@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learnnnn\\41ex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC70205-CF2F-428A-8AD2-114C4232DF19}|41ex.vcxproj|E:\\Learnnnn\\41ex\\ex1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8BC70205-CF2F-428A-8AD2-114C4232DF19}|41ex.vcxproj|solutionrelative:ex1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 245,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ex1.cpp",
+              "DocumentMoniker": "E:\\Learnnnn\\41ex\\ex1.cpp",
+              "RelativeDocumentMoniker": "ex1.cpp",
+              "ToolTip": "E:\\Learnnnn\\41ex\\ex1.cpp",
+              "RelativeToolTip": "ex1.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-01T08:25:42.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 155,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

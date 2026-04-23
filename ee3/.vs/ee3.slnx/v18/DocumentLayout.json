@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learnnnn\\ee3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28279F7B-0391-4985-B07E-4FE4E4812D95}|ee3.vcxproj|E:\\Learnnnn\\ee3\\bai3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28279F7B-0391-4985-B07E-4FE4E4812D95}|ee3.vcxproj|solutionrelative:bai3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bai3.c",
+              "DocumentMoniker": "E:\\Learnnnn\\ee3\\bai3.c",
+              "RelativeDocumentMoniker": "bai3.c",
+              "ToolTip": "E:\\Learnnnn\\ee3\\bai3.c",
+              "RelativeToolTip": "bai3.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-10T04:08:28.904Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

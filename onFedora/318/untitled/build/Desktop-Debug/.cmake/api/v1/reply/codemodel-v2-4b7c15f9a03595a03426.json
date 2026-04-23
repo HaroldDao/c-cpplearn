@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0279e71221d1f3138466.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "exa318",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exa318::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exa318-Debug-6881add440c316eca9a4.json",
+					"name" : "exa318",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exa318_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exa318_autogen-Debug-0db4d5304bbadcdc825f.json",
+					"name" : "exa318_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exa318_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exa318_autogen_timestamp_deps-Debug-3570dd9245b2542718fb.json",
+					"name" : "exa318_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/run/media/kseven/HaroldDao/Learnnnn/onFedora/318/untitled/build/Desktop-Debug",
+		"source" : "/run/media/kseven/HaroldDao/Learnnnn/onFedora/318/ex318"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

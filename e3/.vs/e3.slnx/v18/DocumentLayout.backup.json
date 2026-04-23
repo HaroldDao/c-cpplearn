@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learnnnn\\e3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39E6EE-6C21-486B-AE93-45927841CBE8}|e3.vcxproj|E:\\Learnnnn\\e3\\e3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DF39E6EE-6C21-486B-AE93-45927841CBE8}|e3.vcxproj|solutionrelative:e3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39E6EE-6C21-486B-AE93-45927841CBE8}|e3.vcxproj|E:\\Learnnnn\\e3\\c||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DF39E6EE-6C21-486B-AE93-45927841CBE8}|e3.vcxproj|solutionrelative:c||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39E6EE-6C21-486B-AE93-45927841CBE8}|e3.vcxproj|E:\\Learnnnn\\e3\\e3||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DF39E6EE-6C21-486B-AE93-45927841CBE8}|e3.vcxproj|solutionrelative:e3||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "e3.c",
+              "DocumentMoniker": "E:\\Learnnnn\\e3\\e3.c",
+              "RelativeDocumentMoniker": "e3.c",
+              "ToolTip": "E:\\Learnnnn\\e3\\e3.c",
+              "RelativeToolTip": "e3.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-10T04:07:46.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "c",
+              "DocumentMoniker": "E:\\Learnnnn\\e3\\c",
+              "RelativeDocumentMoniker": "c",
+              "ToolTip": "E:\\Learnnnn\\e3\\c",
+              "RelativeToolTip": "c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-10T04:07:33.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "e3",
+              "DocumentMoniker": "E:\\Learnnnn\\e3\\e3",
+              "RelativeDocumentMoniker": "e3",
+              "ToolTip": "E:\\Learnnnn\\e3\\e3",
+              "RelativeToolTip": "e3",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-10T04:07:33.463Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
