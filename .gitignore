@@ -1,0 +1,9 @@
+build/
+Desktop-Debug/
+*.user
+CMakeFiles/
+CMakeCache.txt
+
+*.exe
+*.o
+*.out

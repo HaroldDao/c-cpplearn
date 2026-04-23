@@ -1,9 +1,0 @@
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/struct.dir
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/edit_cache.dir
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/list_install_components.dir
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/install.dir
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/install/local.dir
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/install/strip.dir
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/struct_autogen_timestamp_deps.dir
-/run/media/kseven/HaroldDao/Learnnnn/onFedora/struct/struct/build/Desktop-Debug/CMakeFiles/struct_autogen.dir

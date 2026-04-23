@@ -1,1 +1,0 @@
-/usr/bin/g++ -DQT_QML_DEBUG -g -Wl,--dependency-file=CMakeFiles/2ar.dir/link.d CMakeFiles/2ar.dir/2ar_autogen/mocs_compilation.cpp.o CMakeFiles/2ar.dir/main.cpp.o -o 2ar  /usr/lib64/libQt6Core.so.6.10.2

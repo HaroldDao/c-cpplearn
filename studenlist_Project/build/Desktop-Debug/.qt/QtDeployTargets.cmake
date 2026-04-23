@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_studenlist_Project_FILE /run/media/kseven/HaroldDao/Learnnnn/studenlist_Project/build/Desktop-Debug/studenlist_Project)
-set(__QT_DEPLOY_TARGET_studenlist_Project_TYPE EXECUTABLE)

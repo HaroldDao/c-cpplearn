@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_325_FILE /home/kseven/325/325/build/Desktop-Debug/325)
-set(__QT_DEPLOY_TARGET_325_TYPE EXECUTABLE)
