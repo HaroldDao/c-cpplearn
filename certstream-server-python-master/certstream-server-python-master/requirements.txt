@@ -1,7 +1,0 @@
-construct
-uvloop
-aiohttp
-aioprocessing
-PyOpenSSL
-websockets
-requests

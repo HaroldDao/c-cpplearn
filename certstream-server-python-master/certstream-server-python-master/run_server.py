@@ -1,3 +1,0 @@
-import certstream
-
-certstream.run()
