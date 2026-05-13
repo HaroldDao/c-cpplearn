@@ -1,0 +1,171 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+const char fileName[40] = "DSACH.c";
+
+typedef struct st {
+    char ho_ten[40];
+    int tuoi;
+    double diem_tb;
+    struct st *next;
+} st;
+
+typedef struct list {
+    st *first;
+    int tongso;
+} list;
+
+void initList(list *l) {
+    l->first = NULL;
+    l->tongso = 0;
+}
+
+st *newSt(char *nm, int t, double dtb) {
+    st *cre = (st *) malloc(sizeof(st));
+    if (cre != NULL) {
+        strcpy(cre->ho_ten, nm);
+        cre->tuoi = t;
+        cre->diem_tb = dtb;
+        cre->next = NULL;
+    }
+    return cre;
+}
+
+void append(list *l, st *app) {
+    app->next = NULL;
+    if (l == NULL) return;
+    if (l->first == NULL) {
+        l->first =app;
+        l->tongso++;
+        return;
+    }
+
+    st *curr = l->first;
+    while (curr->next != NULL) {
+        curr = curr->next;
+    }
+    curr->next = app;
+    l->tongso++;
+}
+
+void showlist(list *l) {
+    if (l == NULL || l->tongso == 0) return;
+
+    printf("%-5s%-40s%-5s%-5s\n", "STT", "HO TEN", "TUOI", "DTB");
+
+    st *curr = l->first;
+    int i = 1;
+    while (curr != NULL) {
+        printf("%-5d%-40s%-5d%-5.2lf\n", i, curr->ho_ten, curr->tuoi, curr->diem_tb);
+        i += 1;
+        curr = curr->next;
+    }
+}
+
+void WRITE(list *l) {
+    FILE *fw = fopen(fileName, "wb");
+
+    if (fw == NULL || l == NULL) return;
+
+    // fwrite(&l->tongso, sizeof(int), 1, fw);
+
+    st *curr = l->first;
+    while (curr != NULL) {
+        fwrite(curr->ho_ten, sizeof(curr->ho_ten), 1, fw);
+        fwrite(&curr->tuoi, sizeof(int), 1, fw);
+        fwrite(&curr->diem_tb, sizeof(double), 1, fw);
+        curr = curr->next;
+    }
+}
+
+// void READ(list *l) {
+//     FILE *fr = fopen(fileName, "rb");
+
+//     if (fr == NULL) return;
+
+//     int len;
+//     fread(&len, sizeof(int), 1, fr);
+//     for (int i = 0; i < len; i++) {
+//         char nm[40];
+//         int t;
+//         double dtb;
+
+//         fread(&nm, sizeof(nm), 1, fr);
+//         fread(&t, sizeof(t), 1, fr);
+//         fread(&dtb, sizeof(dtb), 1, fr);
+//         append(l, newSt(nm, t, dtb));
+//     }
+// }
+
+void WA(list *l) {
+    FILE *fwa = fopen(fileName, "ab");
+
+    if (fwa == NULL || l == NULL) return;
+    char nm[40];
+    int t;
+    double dtb;
+    getchar();
+    printf("===Thong tin sv===\n");
+    printf("Ho ten: ");
+    fgets(nm, sizeof(nm), stdin);
+    nm[strcspn(nm, "\n")] = 0;
+    printf("Tuoi: ");
+    scanf("%d", &t);
+    printf("Diem tb: ");
+    scanf("%lf", &dtb);
+    append(l, newSt(nm, t, dtb));
+    l->tongso++;
+    fwrite(&nm, sizeof(nm), 1, fwa);
+    fwrite(&t, sizeof(t), 1, fwa);
+    fwrite(&dtb, sizeof(dtb), 1, fwa);
+}
+
+int main() {
+    list *lt = (list *) malloc(sizeof(list));
+    initList(lt);
+    int feature = -1;
+
+    do {
+        printf("\t1. Write\n\t2. Show\n\t3. Append\n\t4. Edit\n\t0. Exit\n>>> ");
+        scanf("%d", &feature);
+
+        if (feature == 1) {
+            int n;
+            printf("SL sv: ");
+            scanf("%d", &n);
+            getchar();
+
+            for (int i = 1; i < n + 1; i++) {
+                char nm[40];
+                int t;
+                double dtb;
+                printf("===Thong tin sv %d===\n", i);
+                printf("Ho ten: ");
+                fgets(nm, sizeof(nm), stdin);
+                nm[strcspn(nm, "\n")] = 0;
+                printf("Tuoi: ");
+                scanf("%d", &t);
+                printf("Diem tb: ");
+                scanf("%lf", &dtb);
+                getchar();
+                append(lt, newSt(nm, t, dtb));
+            }
+        }
+
+        if (feature == 2) {
+            showlist(lt);
+        }
+
+        if (feature == 3) {
+            WA(lt);
+        }
+
+        if (feature == 4) {
+            //
+        }
+
+        if (feature == 0) break;
+    } while (feature != 0);
+
+}

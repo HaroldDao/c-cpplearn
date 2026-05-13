@@ -4,6 +4,7 @@ Desktop-Debug/
 CMakeFiles/
 CMakeCache.txt
 
+.vscode
 *.exe
 *.o
 *.out
